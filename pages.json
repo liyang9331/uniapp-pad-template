@@ -1,0 +1,119 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		},
+		{
+			"path": "pages/ad/ad",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		},
+		{
+			// app 内部打开外部网页
+			"path": "pages/webview/index",
+			"style": {
+				"navigationBarTitleText": "外部网页",
+				// "navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		},
+		{
+			"name": "信息查询",
+			"path": "pages/information-query/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		},
+		{
+			"name": "物资入库",
+			"path": "pages/material-storage/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		},
+		{
+			"name": "物资出库",
+			"path": "pages/material-issuance/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		},
+		{
+			"name": "扫码查询",
+			"path": "pages/scan-code-query/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		},
+		{
+			"name": "历史盘点记录",
+			"path": "pages/inventory-history/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom", // 去掉微信小程序顶部导航
+				"app-plus": {
+					"titleNView": false //去掉app+h5顶部导航
+				}
+			}
+		}
+	],
+	// 小程序-分包
+	"subPackages": [],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"rpxCalcMaxDeviceWidth": 2560, // 覆盖目标设备的最大宽度
+		"rpxCalcBaseDeviceWidth": 1920, // 保持与设计稿一致
+		"rpxCalcIncludeWidth": 1920 // 按设计稿基准计算
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			// pages/cancellation/cancellation
+			"path": "pages/index/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
