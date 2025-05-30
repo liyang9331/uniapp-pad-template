@@ -1,2 +1,2 @@
 # uniapp-pad-template
-基于UniApp和vue2技术栈的Pad项目开发模版
+基于UniApp跨端框架与Vue2生态体系的Pad端应用开发解决方案模板
